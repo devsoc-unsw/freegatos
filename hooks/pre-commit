@@ -1,0 +1,16 @@
+#!/bin/sh
+if command -v swiftformat >/dev/null 2>&1
+then
+    echo "Running SwiftFormat"
+    (cd "$(git rev-parse --show-toplevel)" && swiftformat .)
+else
+    echo "Warning: `swiftformat` command not found - run the command: brew install swiftformat"
+fi
+
+if command -v swiftlint >/dev/null 2>&1
+then
+    echo "Running SwiftLint"
+    (cd "$(git rev-parse --show-toplevel)" && swiftlint)
+else
+    echo "Warning: `swiftlint` command not found - run the command: brew install swiftlint"
+fi
