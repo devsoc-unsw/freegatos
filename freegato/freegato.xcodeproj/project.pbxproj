@@ -6,13 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		42CF3FDE2F75BC7400576860 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 42CF3FDD2F75BC7400576860 /* Config.xcconfig */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		42CF3FDD2F75BC7400576860 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		F1FB8A702F72707600762BCA /* freegato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freegato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		42CF3FE02F75BD0C00576860 /* Exceptions for "freegato" folder in "freegato" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F1FB8A6F2F72707600762BCA /* freegato */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F1FB8A722F72707600762BCA /* freegato */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				42CF3FE02F75BD0C00576860 /* Exceptions for "freegato" folder in "freegato" target */,
+			);
 			path = freegato;
 			sourceTree = "<group>";
 		};
@@ -32,6 +50,7 @@
 		F1FB8A672F72707600762BCA = {
 			isa = PBXGroup;
 			children = (
+				42CF3FDD2F75BC7400576860 /* Config.xcconfig */,
 				F1FB8A722F72707600762BCA /* freegato */,
 				F1FB8A712F72707600762BCA /* Products */,
 			);
@@ -109,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CF3FDE2F75BC7400576860 /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +147,7 @@
 /* Begin XCBuildConfiguration section */
 		F1FB8A792F72707800762BCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CF3FDD2F75BC7400576860 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -188,6 +209,7 @@
 		};
 		F1FB8A7A2F72707800762BCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CF3FDD2F75BC7400576860 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -241,6 +263,7 @@
 		};
 		F1FB8A7C2F72707800762BCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CF3FDD2F75BC7400576860 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -250,6 +273,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = freegato/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -283,6 +307,7 @@
 		};
 		F1FB8A7D2F72707800762BCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CF3FDD2F75BC7400576860 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,6 +317,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = freegato/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
