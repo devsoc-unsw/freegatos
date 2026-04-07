@@ -1,7 +1,7 @@
 {
   "configurations" : [
     {
-      "id" : "F93680EF-4338-49D4-A4A5-E7054F2B43C8",
+      "id" : "CB77E133-118C-4BB2-90F7-2FF2A04799F4",
       "name" : "Configuration 1",
       "options" : {
 
@@ -14,9 +14,9 @@
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:Cats",
-        "identifier" : "CatsTests",
-        "name" : "CatsTests"
+        "containerPath" : "container:Freegatos.xcodeproj",
+        "identifier" : "426062732F84DCBA00B6EEC3",
+        "name" : "Tests"
       }
     },
     {
@@ -24,6 +24,13 @@
         "containerPath" : "container:Networking",
         "identifier" : "NetworkingTests",
         "name" : "NetworkingTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Cats",
+        "identifier" : "CatsTests",
+        "name" : "CatsTests"
       }
     }
   ],
