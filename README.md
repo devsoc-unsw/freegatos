@@ -106,10 +106,9 @@ View → ViewModel → Loader (Service Layer)
 ### Package Structure
 
 ```
-freegato/
-├── freegato.xcodeproj
-├── freegato/                  ← App target (entry point, composition root)
-│   ├── freegatoApp.swift
+Freegatos/
+├── Freegatos/                  ← App target (entry point, composition root)
+│   ├── FreegatosApp.swift
 │   └── ContentView.swift
 ├── Networking/                ← Generic HTTP client & codable loader
 │   ├── Package.swift
