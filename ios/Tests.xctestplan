@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "F93680EF-4338-49D4-A4A5-E7054F2B43C8",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Cats",
+        "identifier" : "CatsTests",
+        "name" : "CatsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Networking",
+        "identifier" : "NetworkingTests",
+        "name" : "NetworkingTests"
+      }
+    }
+  ],
+  "version" : 1
+}

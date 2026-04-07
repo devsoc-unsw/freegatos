@@ -1,4 +1,4 @@
-# Freegato
+# Freegatos
 
 A training project to onboard new contributors to the **freerooms-mobile** codebase. Same architecture, same conventions, same tooling — but instead of university rooms, we're building an app about **cats**.
 
@@ -54,7 +54,7 @@ cd freegato
 ./install-hooks.sh
 
 # 3. Open in Xcode
-open freegato.xcodeproj
+open FreegatosWorkspace.xcworkspace
 ```
 
 ### API Key Setup
@@ -329,6 +329,14 @@ Subsequent launches:
   ```
 
 ---
+
+### Stage 6 - VISOR
+
+**Goal:** Use the VISOR package to reduce boilerplate code and streamline UI state
+
+#### Refactor
+- Where possible, leverage the VISOR package macros to reduce boilerplate
+- Use VISOR UI macros to modernize your view models and views 
 
 ## API Reference
 

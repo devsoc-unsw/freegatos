@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1FB8A6F2F72707600762BCA"
-               BuildableName = "freegato.app"
-               BlueprintName = "freegato"
-               ReferencedContainer = "container:freegato.xcodeproj">
+               BlueprintIdentifier = "F3E8D1022F88000200ABCD02"
+               BuildableName = "Freegatos.app"
+               BlueprintName = "Freegatos"
+               ReferencedContainer = "container:freegatos.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,8 +27,12 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:Tests.xctestplan">
+         </TestPlanReference>
+      </TestPlans>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -44,10 +48,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1FB8A6F2F72707600762BCA"
-            BuildableName = "freegato.app"
-            BlueprintName = "freegato"
-            ReferencedContainer = "container:freegato.xcodeproj">
+            BlueprintIdentifier = "F3E8D1022F88000200ABCD02"
+            BuildableName = "Freegatos.app"
+            BlueprintName = "Freegatos"
+            ReferencedContainer = "container:freegatos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1FB8A6F2F72707600762BCA"
-            BuildableName = "freegato.app"
-            BlueprintName = "freegato"
-            ReferencedContainer = "container:freegato.xcodeproj">
+            BlueprintIdentifier = "F3E8D1022F88000200ABCD02"
+            BuildableName = "Freegatos.app"
+            BlueprintName = "Freegatos"
+            ReferencedContainer = "container:freegatos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
