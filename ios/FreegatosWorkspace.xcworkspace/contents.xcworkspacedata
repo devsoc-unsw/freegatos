@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Freegatos/Freegatos.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Cats">
+   </FileRef>
+   <FileRef
+      location = "group:Networking">
+   </FileRef>
+   <FileRef
+      location = "container:../README.md">
+   </FileRef>
+   <FileRef
+      location = "group:Tests.xctestplan">
+   </FileRef>
+</Workspace>

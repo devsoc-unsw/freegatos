@@ -6,116 +6,154 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F3E8D10D2F88000D00ABCD0D /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F3E8D1062F88000600ABCD06 /* Config.xcconfig */; };
+		F3E8D10E2F88000E00ABCD0E /* Cats in Frameworks */ = {isa = PBXBuildFile; productRef = F3E8D1122F88001200ABCD12 /* Cats */; };
+		F3E8D10F2F88000F00ABCD0F /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = F3E8D1132F88001300ABCD13 /* Networking */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		F1FB8A702F72707600762BCA /* freegato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freegato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E8D1032F88000300ABCD03 /* Freegatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freegatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E8D1062F88000600ABCD06 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Config.xcconfig; path = ../Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F3E8D1052F88000500ABCD05 /* Exceptions for "Freegatos" folder in "Freegatos" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F3E8D1022F88000200ABCD02 /* Freegatos */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F1FB8A722F72707600762BCA /* freegato */ = {
+		F3E8D1042F88000400ABCD04 /* Freegatos */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = freegato;
+			exceptions = (
+				F3E8D1052F88000500ABCD05 /* Exceptions for "Freegatos" folder in "Freegatos" target */,
+			);
+			path = Freegatos;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F1FB8A6D2F72707600762BCA /* Frameworks */ = {
+		F3E8D10B2F88000B00ABCD0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E8D10E2F88000E00ABCD0E /* Cats in Frameworks */,
+				F3E8D10F2F88000F00ABCD0F /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F1FB8A672F72707600762BCA = {
+		F3E8D1072F88000700ABCD07 = {
 			isa = PBXGroup;
 			children = (
-				F1FB8A722F72707600762BCA /* freegato */,
-				F1FB8A712F72707600762BCA /* Products */,
+				F3E8D1062F88000600ABCD06 /* Config.xcconfig */,
+				F3E8D1042F88000400ABCD04 /* Freegatos */,
+				F3E8D1092F88000900ABCD09 /* Frameworks */,
+				F3E8D1082F88000800ABCD08 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F1FB8A712F72707600762BCA /* Products */ = {
+		F3E8D1082F88000800ABCD08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1FB8A702F72707600762BCA /* freegato.app */,
+				F3E8D1032F88000300ABCD03 /* Freegatos.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F3E8D1092F88000900ABCD09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F1FB8A6F2F72707600762BCA /* freegato */ = {
+		F3E8D1022F88000200ABCD02 /* Freegatos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1FB8A7B2F72707800762BCA /* Build configuration list for PBXNativeTarget "freegato" */;
+			buildConfigurationList = F3E8D1152F88001500ABCD15 /* Build configuration list for PBXNativeTarget "Freegatos" */;
 			buildPhases = (
-				F1FB8A6C2F72707600762BCA /* Sources */,
-				F1FB8A6D2F72707600762BCA /* Frameworks */,
-				F1FB8A6E2F72707600762BCA /* Resources */,
+				F3E8D10A2F88000A00ABCD0A /* Sources */,
+				F3E8D10B2F88000B00ABCD0B /* Frameworks */,
+				F3E8D10C2F88000C00ABCD0C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F1FB8A722F72707600762BCA /* freegato */,
+				F3E8D1042F88000400ABCD04 /* Freegatos */,
 			);
-			name = freegato;
+			name = Freegatos;
 			packageProductDependencies = (
+				F3E8D1122F88001200ABCD12 /* Cats */,
+				F3E8D1132F88001300ABCD13 /* Networking */,
 			);
-			productName = freegato;
-			productReference = F1FB8A702F72707600762BCA /* freegato.app */;
+			productName = Freegatos;
+			productReference = F3E8D1032F88000300ABCD03 /* Freegatos.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F1FB8A682F72707600762BCA /* Project object */ = {
+		F3E8D1012F88000100ABCD01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
-					F1FB8A6F2F72707600762BCA = {
+					F3E8D1022F88000200ABCD02 = {
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
 			};
-			buildConfigurationList = F1FB8A6B2F72707600762BCA /* Build configuration list for PBXProject "freegato" */;
+			buildConfigurationList = F3E8D1142F88001400ABCD14 /* Build configuration list for PBXProject "Freegatos" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F1FB8A672F72707600762BCA;
+			mainGroup = F3E8D1072F88000700ABCD07;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F3E8D1102F88001000ABCD10 /* XCLocalSwiftPackageReference "../Cats" */,
+				F3E8D1112F88001100ABCD11 /* XCLocalSwiftPackageReference "../Networking" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F1FB8A712F72707600762BCA /* Products */;
+			productRefGroup = F3E8D1082F88000800ABCD08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1FB8A6F2F72707600762BCA /* freegato */,
+				F3E8D1022F88000200ABCD02 /* Freegatos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F1FB8A6E2F72707600762BCA /* Resources */ = {
+		F3E8D10C2F88000C00ABCD0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E8D10D2F88000D00ABCD0D /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F1FB8A6C2F72707600762BCA /* Sources */ = {
+		F3E8D10A2F88000A00ABCD0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,8 +163,9 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F1FB8A792F72707800762BCA /* Debug */ = {
+		F3E8D1162F88001600ABCD16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E8D1062F88000600ABCD06 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -186,8 +225,9 @@
 			};
 			name = Debug;
 		};
-		F1FB8A7A2F72707800762BCA /* Release */ = {
+		F3E8D1172F88001700ABCD17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E8D1062F88000600ABCD06 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -239,17 +279,21 @@
 			};
 			name = Release;
 		};
-		F1FB8A7C2F72707800762BCA /* Debug */ = {
+		F3E8D1182F88001800ABCD18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E8D1062F88000600ABCD06 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Freegatos/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Freegatos;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -258,40 +302,45 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = freegato.freegato;
+				PRODUCT_BUNDLE_IDENTIFIER = freegatos.Freegatos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
 		};
-		F1FB8A7D2F72707800762BCA /* Release */ = {
+		F3E8D1192F88001900ABCD19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E8D1062F88000600ABCD06 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Freegatos/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Freegatos;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -300,25 +349,26 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = freegato.freegato;
+				PRODUCT_BUNDLE_IDENTIFIER = freegatos.Freegatos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
@@ -326,25 +376,49 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F1FB8A6B2F72707600762BCA /* Build configuration list for PBXProject "freegato" */ = {
+		F3E8D1142F88001400ABCD14 /* Build configuration list for PBXProject "Freegatos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1FB8A792F72707800762BCA /* Debug */,
-				F1FB8A7A2F72707800762BCA /* Release */,
+				F3E8D1162F88001600ABCD16 /* Debug */,
+				F3E8D1172F88001700ABCD17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1FB8A7B2F72707800762BCA /* Build configuration list for PBXNativeTarget "freegato" */ = {
+		F3E8D1152F88001500ABCD15 /* Build configuration list for PBXNativeTarget "Freegatos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1FB8A7C2F72707800762BCA /* Debug */,
-				F1FB8A7D2F72707800762BCA /* Release */,
+				F3E8D1182F88001800ABCD18 /* Debug */,
+				F3E8D1192F88001900ABCD19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F3E8D1102F88001000ABCD10 /* XCLocalSwiftPackageReference "../Cats" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Cats;
+		};
+		F3E8D1112F88001100ABCD11 /* XCLocalSwiftPackageReference "../Networking" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Networking;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3E8D1122F88001200ABCD12 /* Cats */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3E8D1102F88001000ABCD10 /* XCLocalSwiftPackageReference "../Cats" */;
+			productName = Cats;
+		};
+		F3E8D1132F88001300ABCD13 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3E8D1112F88001100ABCD11 /* XCLocalSwiftPackageReference "../Networking" */;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = F1FB8A682F72707600762BCA /* Project object */;
+	rootObject = F3E8D1012F88000100ABCD01 /* Project object */;
 }

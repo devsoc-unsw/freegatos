@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "CB77E133-118C-4BB2-90F7-2FF2A04799F4",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:../Networking",
+        "identifier" : "NetworkingTests",
+        "name" : "NetworkingTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:../Cats",
+        "identifier" : "CatsTests",
+        "name" : "CatsTests"
+      }
+    }
+  ],
+  "version" : 1
+}
