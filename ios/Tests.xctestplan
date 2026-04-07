@@ -14,13 +14,6 @@
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:Freegatos.xcodeproj",
-        "identifier" : "426062732F84DCBA00B6EEC3",
-        "name" : "Tests"
-      }
-    },
-    {
-      "target" : {
         "containerPath" : "container:Networking",
         "identifier" : "NetworkingTests",
         "name" : "NetworkingTests"
