@@ -14,7 +14,7 @@
 
 /* Begin PBXFileReference section */
 		F3E8D1032F88000300ABCD03 /* Freegatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freegatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3E8D1062F88000600ABCD06 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		F3E8D1062F88000600ABCD06 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Config.xcconfig; path = ../Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -128,8 +128,8 @@
 			mainGroup = F3E8D1072F88000700ABCD07;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				F3E8D1102F88001000ABCD10 /* XCLocalSwiftPackageReference "Cats" */,
-				F3E8D1112F88001100ABCD11 /* XCLocalSwiftPackageReference "Networking" */,
+				F3E8D1102F88001000ABCD10 /* XCLocalSwiftPackageReference "../Cats" */,
+				F3E8D1112F88001100ABCD11 /* XCLocalSwiftPackageReference "../Networking" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F3E8D1082F88000800ABCD08 /* Products */;
@@ -397,25 +397,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		F3E8D1102F88001000ABCD10 /* XCLocalSwiftPackageReference "Cats" */ = {
+		F3E8D1102F88001000ABCD10 /* XCLocalSwiftPackageReference "../Cats" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = Cats;
+			relativePath = ../Cats;
 		};
-		F3E8D1112F88001100ABCD11 /* XCLocalSwiftPackageReference "Networking" */ = {
+		F3E8D1112F88001100ABCD11 /* XCLocalSwiftPackageReference "../Networking" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = Networking;
+			relativePath = ../Networking;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		F3E8D1122F88001200ABCD12 /* Cats */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F3E8D1102F88001000ABCD10 /* XCLocalSwiftPackageReference "Cats" */;
+			package = F3E8D1102F88001000ABCD10 /* XCLocalSwiftPackageReference "../Cats" */;
 			productName = Cats;
 		};
 		F3E8D1132F88001300ABCD13 /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F3E8D1112F88001100ABCD11 /* XCLocalSwiftPackageReference "Networking" */;
+			package = F3E8D1112F88001100ABCD11 /* XCLocalSwiftPackageReference "../Networking" */;
 			productName = Networking;
 		};
 /* End XCSwiftPackageProductDependency section */

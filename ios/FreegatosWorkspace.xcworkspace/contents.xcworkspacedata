@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Freegatos.xcodeproj">
+      location = "group:Freegatos/Freegatos.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Cats">
