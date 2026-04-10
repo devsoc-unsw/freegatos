@@ -8,5 +8,5 @@
 import Foundation
 
 enum Secrets {
-    static let catAPIKey = Bundle.main.infoDictionary!["API_URL"] as! String
+  static let catAPIKey = Bundle.main.infoDictionary!["API_URL"] as! String
 }
