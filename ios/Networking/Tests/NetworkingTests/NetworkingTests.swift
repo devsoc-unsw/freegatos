@@ -1,5 +1,6 @@
 import Testing
 
-@Test func placeholder() async throws {
+@Test
+func placeholder() async throws {
   #expect(true)
 }
